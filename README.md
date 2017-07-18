@@ -3,6 +3,9 @@ Chainer Imprementation of Dual Path Networks modified from [https://github.com/c
 
 ![overview](imgs/overview.png)
 
+## Requirements  
+Chainer 2.0.1  
+
 ## Original Results on ImageNet-1k
 
 <img src='imgs/original-results-on-imagenet1k.png' width="700px"/>
