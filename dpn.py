@@ -1,13 +1,8 @@
-# Chainer Imprementation of Dual Path Networks (https://arxiv.org/abs/1707.01629)
-# A part of the code is based on implementation of https://github.com/cypw/DPNs and https://github.com/oyam/pytorch-DPNs
-
-# Requirement
-# chainer(2.0.1)
+from collections import OrderedDict
 
 import chainer
 import chainer.links as L
 import chainer.functions as F
-from collections import OrderedDict
 
 __all__ = ['DPN', 'dpn92', 'dpn98', 'dpn131', 'dpn107', 'dpns']
 
