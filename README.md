@@ -11,5 +11,5 @@ Chainer Imprementation of Dual Path Networks modified from [https://github.com/c
 A part of the code is based on implementation of [cypw/DPNs](https://github.com/cypw/DPNs)
 
 ## Other Implementation
-[MXNet Implementation](https://github.com/cypw/DPNs) by cypw  
-My [PyTorch Implementation](https://github.com/oyam/pytorch-DPNs)
+0. [MXNet Implementation](https://github.com/cypw/DPNs) by cypw  
+1. My [PyTorch Implementation](https://github.com/oyam/pytorch-DPNs)
