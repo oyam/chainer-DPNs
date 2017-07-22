@@ -179,7 +179,7 @@ class DPN(chainer.Chain):
         R = int((k_R*bw)/256)
         blocks['conv4_1'] = DualPathBlock(in_chs, R, R, bw, inc, G, 'down')
         in_chs = bw + 3 * inc
-        for i in range(2, k_sec[1]+1):
+        for i in range(2, k_sec[2]+1):
             blocks['conv4_{}'.format(i)] = DualPathBlock(in_chs, R, R, bw, inc, G, 'normal')
             in_chs += inc
 
@@ -189,7 +189,7 @@ class DPN(chainer.Chain):
         R = int((k_R*bw)/256)
         blocks['conv5_1'] = DualPathBlock(in_chs, R, R, bw, inc, G, 'down')
         in_chs = bw + 3 * inc
-        for i in range(2, k_sec[1]+1):
+        for i in range(2, k_sec[3]+1):
             blocks['conv5_{}'.format(i)] = DualPathBlock(in_chs, R, R, bw, inc, G, 'normal')
             in_chs += inc
 
